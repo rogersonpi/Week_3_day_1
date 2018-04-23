@@ -118,7 +118,9 @@ INSERT INTO movies (title, year, show_time) VALUES ('Doctor Strange', 2016, '17:
 --
 -- 1. Research how to delete multiple entries from your table in a single command.
 --
---
+-- DELETE FROM movies
+-- WHERE id IN (1,3,5,7,8);
+
 --
 --
 --
