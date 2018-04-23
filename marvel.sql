@@ -60,92 +60,136 @@ INSERT INTO movies (title, year, show_time) VALUES ('Ant-Man', 2015, '13:50');
 INSERT INTO movies (title, year, show_time) VALUES ('Captain America: Civil War', 2016, '21:30');
 INSERT INTO movies (title, year, show_time) VALUES ('Doctor Strange', 2016, '17:55');
 
-INSERT INTO attendances (person_id, movie_id) VALUES (2, 13);
-INSERT INTO attendances (person_id, movie_id) VALUES (22, 7);
-INSERT INTO attendances (person_id, movie_id) VALUES (12, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (21, 5);
-INSERT INTO attendances (person_id, movie_id) VALUES (5, 15);
-INSERT INTO attendances (person_id, movie_id) VALUES (13, 2);
-INSERT INTO attendances (person_id, movie_id) VALUES (16, 7);
-INSERT INTO attendances (person_id, movie_id) VALUES (1, 13);
-INSERT INTO attendances (person_id, movie_id) VALUES (8, 15);
-INSERT INTO attendances (person_id, movie_id) VALUES (5, 16);
-INSERT INTO attendances (person_id, movie_id) VALUES (3, 15);
-INSERT INTO attendances (person_id, movie_id) VALUES (10, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (16, 14);
-INSERT INTO attendances (person_id, movie_id) VALUES (19, 16);
-INSERT INTO attendances (person_id, movie_id) VALUES (22, 6);
-INSERT INTO attendances (person_id, movie_id) VALUES (9, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (2, 15);
-INSERT INTO attendances (person_id, movie_id) VALUES (11, 3);
-INSERT INTO attendances (person_id, movie_id) VALUES (8, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (13, 10);
-INSERT INTO attendances (person_id, movie_id) VALUES (15, 11);
-INSERT INTO attendances (person_id, movie_id) VALUES (14, 14);
-INSERT INTO attendances (person_id, movie_id) VALUES (1, 2);
-INSERT INTO attendances (person_id, movie_id) VALUES (9, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (9, 4);
-INSERT INTO attendances (person_id, movie_id) VALUES (17, 10);
-INSERT INTO attendances (person_id, movie_id) VALUES (23, 2);
-INSERT INTO attendances (person_id, movie_id) VALUES (10, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (16, 16);
-INSERT INTO attendances (person_id, movie_id) VALUES (10, 4);
-INSERT INTO attendances (person_id, movie_id) VALUES (19, 10);
-INSERT INTO attendances (person_id, movie_id) VALUES (13, 4);
-INSERT INTO attendances (person_id, movie_id) VALUES (7, 10);
-INSERT INTO attendances (person_id, movie_id) VALUES (17, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (8, 7);
-INSERT INTO attendances (person_id, movie_id) VALUES (6, 4);
-INSERT INTO attendances (person_id, movie_id) VALUES (20, 5);
-INSERT INTO attendances (person_id, movie_id) VALUES (6, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (12, 11);
-INSERT INTO attendances (person_id, movie_id) VALUES (8, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (14, 11);
-INSERT INTO attendances (person_id, movie_id) VALUES (4, 6);
-INSERT INTO attendances (person_id, movie_id) VALUES (22, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (3, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (13, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (1, 8);
-INSERT INTO attendances (person_id, movie_id) VALUES (16, 3);
-INSERT INTO attendances (person_id, movie_id) VALUES (2, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (11, 12);
-INSERT INTO attendances (person_id, movie_id) VALUES (11, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (22, 11);
-INSERT INTO attendances (person_id, movie_id) VALUES (21, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (15, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (10, 2);
-INSERT INTO attendances (person_id, movie_id) VALUES (12, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (14, 16);
-INSERT INTO attendances (person_id, movie_id) VALUES (7, 5);
-INSERT INTO attendances (person_id, movie_id) VALUES (20, 11);
-INSERT INTO attendances (person_id, movie_id) VALUES (4, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (9, 13);
-INSERT INTO attendances (person_id, movie_id) VALUES (13, 12);
-INSERT INTO attendances (person_id, movie_id) VALUES (20, 13);
-INSERT INTO attendances (person_id, movie_id) VALUES (22, 10);
-INSERT INTO attendances (person_id, movie_id) VALUES (23, 5);
-INSERT INTO attendances (person_id, movie_id) VALUES (19, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (9, 14);
-INSERT INTO attendances (person_id, movie_id) VALUES (7, 3);
-INSERT INTO attendances (person_id, movie_id) VALUES (8, 16);
-INSERT INTO attendances (person_id, movie_id) VALUES (16, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (15, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (3, 16);
-INSERT INTO attendances (person_id, movie_id) VALUES (18, 6);
-INSERT INTO attendances (person_id, movie_id) VALUES (11, 13);
-INSERT INTO attendances (person_id, movie_id) VALUES (9, 6);
-INSERT INTO attendances (person_id, movie_id) VALUES (21, 16);
-INSERT INTO attendances (person_id, movie_id) VALUES (7, 7);
-INSERT INTO attendances (person_id, movie_id) VALUES (16, 13);
-INSERT INTO attendances (person_id, movie_id) VALUES (15, 14);
-INSERT INTO attendances (person_id, movie_id) VALUES (5, 5);
-INSERT INTO attendances (person_id, movie_id) VALUES (13, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (7, 15);
-INSERT INTO attendances (person_id, movie_id) VALUES (17, 13);
-INSERT INTO attendances (person_id, movie_id) VALUES (21, 13);
-INSERT INTO attendances (person_id, movie_id) VALUES (6, 11);
-INSERT INTO attendances (person_id, movie_id) VALUES (12, 10);
-INSERT INTO attendances (person_id, movie_id) VALUES (12, 2);
-INSERT INTO attendances (person_id, movie_id) VALUES (5, 8);
-INSERT INTO attendances (person_id, movie_id) VALUES (1, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (21, 4);
+-- # SQL Homework
+--
+-- The Dominion Cinema are having a Marvel Movie Marathon! They have asked you to help maintain their database of movies with times and attendees.
+--
+-- ## To access the database:
+--
+-- First, create a database called 'marvel'
+--
+-- ```
+-- # terminal
+-- createdb marvel
+-- ```
+--
+-- Next, run the provided SQL script to populate your database:
+--
+-- ```
+-- # terminal
+-- psql -d marvel -f marvel.sql
+-- ```
+--
+-- Use the supplied data as the source of data to answer the questions.  Copy the SQL command you have used to get the answer, and paste it below the question, along with the result they gave.
+--
+-- ## Questions
+--
+-- 1. Return ALL the data in the 'movies' table.
+SELECT * FROM movies;
+-- 2. Return ONLY the name column from the 'people' table
+-- 3.Oops! Someone at CodeClan spelled Davina's name wrong! Change it to reflect the proper spelling (change 'Davinda Sanders' to 'Davina Sanders').
+-- 4. Return ONLY your name from the 'people' table.
+-- 5. The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
+-- 6. Create a new entry in the 'people' table with the name of one of the instructors.
+-- 7. Zsolt, has decided to hijack our movie evening, Remove him from the table of people.
+-- 8. Somehow the list of people includes two people named 'Andrew'. Change these entries to the proper names ('Jeff 4', 'Jeff 5')
+-- 9. The cinema has just heard that they will be holding an exclusive midnight showing of 'Guardians of the Galaxy 2'!! Create a new entry in the 'movies' table to reflect this.
+-- 10. The cinema would also like to make the Guardian movies a back to back feature. Update the 'Guardians of the Galaxy' show time from 18:55 to 21:30
+--
+-- ## Extension
+--
+-- 1. Research how to delete multiple entries from your table in a single command.
+--
+--
+--
+--
+--
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (2, 13);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (22, 7);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (12, 9);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (21, 5);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (5, 15);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (13, 2);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (16, 7);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (1, 13);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (8, 15);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (5, 16);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (3, 15);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (10, 1);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (16, 14);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (19, 16);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (22, 6);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (9, 1);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (2, 15);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (11, 3);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (8, 9);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (13, 10);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (15, 11);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (14, 14);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (1, 2);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (9, 9);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (9, 4);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (17, 10);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (23, 2);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (10, 9);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (16, 16);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (10, 4);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (19, 10);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (13, 4);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (7, 10);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (17, 9);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (8, 7);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (6, 4);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (20, 5);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (6, 1);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (12, 11);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (8, 1);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (14, 11);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (4, 6);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (22, 9);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (3, 9);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (13, 9);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (1, 8);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (16, 3);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (2, 9);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (11, 12);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (11, 1);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (22, 11);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (21, 9);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (15, 9);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (10, 2);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (12, 1);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (14, 16);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (7, 5);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (20, 11);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (4, 9);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (9, 13);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (13, 12);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (20, 13);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (22, 10);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (23, 5);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (19, 1);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (9, 14);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (7, 3);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (8, 16);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (16, 1);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (15, 1);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (3, 16);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (18, 6);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (11, 13);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (9, 6);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (21, 16);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (7, 7);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (16, 13);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (15, 14);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (5, 5);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (13, 1);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (7, 15);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (17, 13);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (21, 13);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (6, 11);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (12, 10);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (12, 2);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (5, 8);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (1, 1);
+-- -- INSERT INTO attendances (person_id, movie_id) VALUES (21, 4);
