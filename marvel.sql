@@ -92,9 +92,14 @@ INSERT INTO movies (title, year, show_time) VALUES ('Doctor Strange', 2016, '17:
 -- UPDATE people SET name = 'Davina Sanders' WHERE id = 16;
 -- SELECT name FROM people;
 -- 4. Return ONLY your name from the 'people' table.
-SELECT name FROM people WHERE name = 'Iain Rogerson'
+-- SELECT name FROM people WHERE name = 'Iain Rogerson'
 -- 5. The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
+-- DELETE FROM movies WHERE title = 'Batman Begins';
+-- SELECT * FROM movies;
 -- 6. Create a new entry in the 'people' table with the name of one of the instructors.
+INSERT INTO people(name)
+VALUES ('Sandy');
+SELECT * FROM people;
 -- 7. Zsolt, has decided to hijack our movie evening, Remove him from the table of people.
 -- 8. Somehow the list of people includes two people named 'Andrew'. Change these entries to the proper names ('Jeff 4', 'Jeff 5')
 -- 9. The cinema has just heard that they will be holding an exclusive midnight showing of 'Guardians of the Galaxy 2'!! Create a new entry in the 'movies' table to reflect this.
