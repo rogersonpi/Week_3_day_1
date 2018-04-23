@@ -85,10 +85,14 @@ INSERT INTO movies (title, year, show_time) VALUES ('Doctor Strange', 2016, '17:
 -- ## Questions
 --
 -- 1. Return ALL the data in the 'movies' table.
-SELECT * FROM movies;
--- 2. Return ONLY the name column from the 'people' table
+-- SELECT * FROM movies;
+-- -- 2. Return ONLY the name column from the 'people' table
+-- SELECT name FROM people;
 -- 3.Oops! Someone at CodeClan spelled Davina's name wrong! Change it to reflect the proper spelling (change 'Davinda Sanders' to 'Davina Sanders').
+-- UPDATE people SET name = 'Davina Sanders' WHERE id = 16;
+-- SELECT name FROM people;
 -- 4. Return ONLY your name from the 'people' table.
+SELECT name FROM people WHERE name = 'Iain Rogerson'
 -- 5. The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
 -- 6. Create a new entry in the 'people' table with the name of one of the instructors.
 -- 7. Zsolt, has decided to hijack our movie evening, Remove him from the table of people.
